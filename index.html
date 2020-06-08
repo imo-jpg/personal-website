@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Imogen Todd</title>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.14.2/d3.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Germania+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Astloch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ranga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" href="css/imo_icon.png" type="image/png" sizes="16x16">
+
+</head>
+<body>
+    <div id="home">
+        <div class="header">
+            <div class="tabs">
+                <a href="">Home</a>
+                <a id="about" onclick="showHeader(event)">About</a>
+                <a onclick="showHeader(event)">Contact</a>
+            </div>
+        </div>
+        <div id="capitalOne" class="project" onclick="bringToFront(event)">
+            <a onclick="closeSection(event)">close</a>
+            <h1>Investor Relations On Demand</h1>
+            <p>Put brief description of IROD here.</p>
+        </div>
+        <div id="psMag" class="project" onclick="bringToFront(event)">
+            <a onclick="closeSection(event)">close</a>
+            <h1>Pacific Standard Magazine</h1>
+            <p>In 2019, I made pieces for two Pacific Standard stories, one about gene editing in cows and another about a small town's newspaper and its ties to the oil industry.</p>
+            <img class="preview" src="css/cow_piece.jpg" alt="cow collage">
+            <img class="preview" src="css/july_piece_one.jpg" alt="oil drill newspaper collage 1">
+            <img class="preview" src="css/july_piece_two.jpg" alt="oil drill newspaper collage 2">
+        </div>
+        <div id="collages" class="project" onclick="bringToFront(event)">
+            <a onclick="closeSection(event)">close</a>
+            <h1>Collages</h1>
+            <p>Put brief description of collages here.</p>
+        </div>
+        <div id="covers" class="project" onclick="bringToFront(event)">
+            <a onclick="closeSection(event)">close</a>
+            <h1>Book Covers</h1>
+            <p>Put brief description of book covers here.</p>
+            <img class="preview" src="css/gingerbread_map.png" alt="Gingerbread by Helen Oyeyemi">
+            <img class="preview" src="css/pattern_recognition.jpg" alt="Pattern Recognition by William Gibson">
+            <img class="preview" src="css/birds_beasts_flowers.png" alt="Birds Beasts and Flowers by D. H. Lawrence">
+            <img class="preview" src="css/the_drowned_world.png" alt="The Drowned World by J. G. Ballard">
+            <img class="preview" src="css/zero_history.jpg" alt="Zero History by William Gibson">  
+            <img class="preview" src="css/lonely_city.png" alt="The Lonely City by Olivia Laing">
+      
+        </div>
+        
+        <div class="description">
+            <p> Hi, my name is <a class="link" id="name">Imogen Todd</a>.</p>
+            <p>I'm a <a class="link" id="uxui">UX/UI</a> and <a class="link" id="dataviz">data viz</a> designer.</p>
+
+            <!-- <p>Hi, my name is Imogen Todd. I'm a UX/UI and data viz designer.</p> -->
+
+            <p>Currently I'm at <a class="capitalOne link" onclick="showSection(event)">Capital One</a> creating data-driven finance experieces.</p>
+            <p>I've also created <a class="psMag link" onclick="showSection(event)">editorial art</a> for Pacific Standard Magazine.</p>
+            <p>Sometimes I also make digital <a class="collages link" onclick="showSection(event)">collages</a> and redesign my favorite books' <a class="covers link" onclick="showSection(event)">covers</a>.</p>
+        </div>
+
+        <!-- <div class="extra">
+            <p>If you want to get in touch, reach out <a class="extra" href=""> here</a>.</p>
+            <p>If you want to listen to what I'm listening to, click <a class="extra" href="">here</a>.</p>
+            <p>If you want to see what I'm up to in my free time, go <a class="extra" href="">here</a>.</p>
+        </div> -->
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

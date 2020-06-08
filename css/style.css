@@ -1,0 +1,127 @@
+body {
+    background-color: #fcfcfc;
+}
+
+#home {
+    display: block;
+    position: relative;
+    color: #1a1717;
+    width: 100%;
+    margin: auto;
+}
+
+#home .header {
+    position: fixed;
+    padding-top: 10px;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    backdrop-filter: blur(4px);
+    background: rgba(255,255,255,.25);
+    z-index: 999;
+}
+
+
+#home .header a {
+    display: inline;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#home .description {
+    padding-top: 15%;
+    height: 100%;
+    text-align: center;
+}
+
+#home .description a {
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+#home .project {
+    display: none;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    padding: .5em;
+    border: 1px solid black;
+    background: rgba(255,255,255,.5);
+    backdrop-filter: blur(4px);
+}
+
+#home .preview {
+    width: 25%;
+    height: auto;
+    margin-top: .5em;
+}
+
+#home #capitalOne {
+    top: 10%;
+    left: 5%;
+}
+
+#home #psMag {
+    top: 20%;
+    left: 15%;
+}
+
+#home #collages {
+    top: 30%;
+    left: 25%;
+}
+
+#home #covers {
+    top: 40%;
+    left: 35%;
+}
+
+.show {
+    display: block;
+}
+
+#home .project a {
+    position: relative;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    top: 5px;
+}
+
+.transition {
+    transition: height 300ms;
+    /* height: 100vh; */
+}
+
+h1 {
+    font-family: 'Rubik';
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200;
+    font-size: 16px;
+    /* padding-top: 1em; */
+}
+
+a {    
+    color: #1a1717;
+    cursor: pointer;
+}
+
+span {
+    text-decoration: underline  dashed;
+}
+
+
+
+
+
+
+
+
+
